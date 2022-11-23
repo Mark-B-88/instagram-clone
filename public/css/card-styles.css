@@ -1,0 +1,119 @@
+.container {
+    background-color: #fafafa;
+    width: 100%;
+    min-height: 150vh;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    padding: 45px 0 0 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.card {
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card-header {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-footer {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.likes {
+    font-weight: 700;
+    color: #111;
+    font-size: 12px;
+    margin: 0 0 0.6rem 0;
+}
+
+.description p span {
+    font-weight: 700;
+}
+
+.description p {
+    margin: 0 0 6px 0;
+    font-size: 14px;
+    margin: 0 0 18px 0;
+}
+
+.comments {
+    font-size: 14px;
+    font-style: italic;
+    margin: 0 0 18px 0;
+}
+
+.comments p {
+    margin: 0 0 9px 0;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    height: 50px;
+    margin: 0 16rem 0 0;
+}
+
+.name {
+    font-size: 14px;
+    color: #111;
+    font-weight: 700;
+}
+
+.location {
+    font-size: 12px;
+    color: #111;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    font-size: 12px;
+    padding: 18px 0 0 0;
+}
+
+.menu i {
+    font-size: 1.3rem;
+}
+
+.card-content {
+    width: auto;
+    height: 417px;
+}
+
+.card-content img {
+    width: 100%;
+    height: 417px;
+}
